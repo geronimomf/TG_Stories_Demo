@@ -7,7 +7,7 @@ const Stories = () => {
     src: '/source_videos/1.mp4', // Путь к вашему видео
     duration: 206 // 3 минуты 26 секунд = 206 секунд
   };
-
+  // Закрываем приложение по окончанию видео
   const handleClose = useCallback(() => {
     window.Telegram.WebApp.close();
   }, []);
