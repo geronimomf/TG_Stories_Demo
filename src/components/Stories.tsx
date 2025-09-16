@@ -8,6 +8,7 @@ const Stories = () => {
     duration: 206 // 3 минуты 26 секунд = 206 секунд
   };
   // Закрываем приложение по окончанию видео
+  // Закрываем приложение по окончанию видео
   const handleClose = useCallback(() => {
     window.Telegram.WebApp.close();
   }, []);
